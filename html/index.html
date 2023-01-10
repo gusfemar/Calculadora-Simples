@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho__logo" src="../imagens/logo.png">
+        <h1 class="cabecalho__titulo">Calculadora Simples</h1>
+    </header>
+
+    <main class="corpo">
+        <div class="corpo__soma">
+            <input class="corpo__soma--input corpo__soma--1">
+            <p>+</p>
+            <input class="corpo__soma--input corpo__soma--2">
+            <p>=</p>
+            <div class="corpo__soma--resultado"></div>
+            <button class="corpo__soma--botao">Calcular</button>
+        </div>
+        <div class="corpo__subtracao">
+            <input class="corpo__subtracao--input corpo__subtracao--1">
+            <p>-</p>
+            <input class="corpo__subtracao--input corpo__subtracao--2">
+            <p>=</p>
+            <div class="corpo__subtracao--resultado"></div>
+            <button class="corpo__subtracao--botao">Calcular</button>
+        </div>
+        <div class="corpo__multiplicacao">
+            <input class="corpo__multiplicacao--input corpo__multiplicacao--1">
+            <p>x</p>
+            <input class="corpo__multiplicacao--input corpo__multiplicacao--2">
+            <p>=</p>
+            <div class="corpo__multiplicacao--resultado"></div>
+            <button class="corpo__multiplicacao--botao">Calcular</button>
+        </div>
+        <div class="corpo__divisao">
+            <input class="corpo__divisao--input corpo__divisao--1">
+            <p>/</p>
+            <input class="corpo__divisao--input corpo__divisao--2">
+            <p>=</p>
+            <div class="corpo__divisao--resultado"></div>
+            <button class="corpo__divisao--botao">Calcular</button>
+        </div>
+    </main>
+
+    <script src="../javascript/soma.js"></script>
+    <script src="../javascript/subtracao.js"></script>
+    <script src="../javascript/multiplicacao.js"></script>
+    <script src="../javascript/divisao.js"></script>
+</body>
+
+</html>

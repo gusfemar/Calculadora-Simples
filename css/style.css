@@ -1,0 +1,79 @@
+:root {
+    --branco: #ffffff;
+    --verde-claro-cabecalho: #BEDFD4;
+    --cinza-claro-corpo: #F5F5F5;
+    --azul-claro-borda-input: #9ACFE0;
+    --azul-escuro-botao: #3C7D90;
+
+    --font-principal: "Poppins"
+}
+
+body {
+    font-family: var(--font-principal);
+    background-color: var(--cinza-claro-corpo);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    background-color: var(--verde-claro-cabecalho);
+    padding: 1rem 0 1rem 0;
+    ;
+}
+
+.cabecalho__logo {
+    width: 60px;
+    height: 60px;
+}
+
+.corpo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.corpo__soma,
+.corpo__subtracao,
+.corpo__multiplicacao,
+.corpo__divisao {
+    display: flex;
+    margin: 1rem 1rem 1rem 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.corpo__soma--input,
+.corpo__subtracao--input,
+.corpo__multiplicacao--input,
+.corpo__divisao--input {
+    border: 1px solid var(--azul-escuro-botao);
+    border-radius: 5px;
+    border-width: 2px;
+}
+
+.corpo__soma--resultado,
+.corpo__subtracao--resultado,
+.corpo__multiplicacao--resultado,
+.corpo__divisao--resultado {
+    border: 1px solid var(--azul-escuro-botao);
+    border-width: 2px;
+    border-radius: 5px 0 0 5px;
+    height: 27px;
+    width: 106.5px;
+}
+
+.corpo__soma--botao,
+.corpo__subtracao--botao,
+.corpo__multiplicacao--botao,
+.corpo__divisao--botao {
+    background-color: var(--azul-escuro-botao);
+    color: var(--branco);
+    border-radius: 0 5px 5px 0;
+    height: 31px;
+    width: 106.5px;
+}
+
+button:active {
+    background-color: var(--azul-claro-borda-input);
+}
