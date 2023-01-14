@@ -2,4 +2,25 @@
     .cabecalho {
         width: 100vh;
     }
+
+    .corpo__soma--input,
+    .corpo__subtracao--input,
+    .corpo__multiplicacao--input,
+    .corpo__divisao--input {
+        width: 80px;
+    }
+
+    .corpo__soma--resultado,
+    .corpo__subtracao--resultado,
+    .corpo__multiplicacao--resultado,
+    .corpo__divisao--resultado {
+        width: 80px;
+    }
+
+    .corpo__soma--botao,
+    .corpo__subtracao--botao,
+    .corpo__multiplicacao--botao,
+    .corpo__divisao--botao {
+        width: 80px;
+    }
 }
